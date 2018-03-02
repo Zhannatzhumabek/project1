@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.springframework.org/schema/data/jaxb">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" th:href = "@{/css/bootstrap.min.css}" />
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
 </head>
 <body>
-<form action="/demo/add" method="GET" modelAttribute="author">
-    First Name <input type="text" id="firstnamee" name="firstname"><br>
-    Last Name<input type="text" id="lastnamee" name="lastname"><br>
-    Email <input type="text" id="emaile" name="email"><br>
 
-    <input type="submit" value="ok">
+<form class="login" action="/demo/add" method="GET" modelAttribute="author">
+    <h2 >Авторизация</h2>
+ <input class="first" type="text" id="firstnamee" name="firstname" placeholder="First Name"><br><br>
+<input  class="last" type="text" id="lastnamee" name="lastname" placeholder="Last Name" ><br><br>
+    <input class="email" type="text" id="emaile" name="email" placeholder="Email"  ><br><br>
+<input class="ok" type="submit" value="ok">
 
 </form>
 </body>
