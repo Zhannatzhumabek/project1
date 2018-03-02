@@ -1,0 +1,11 @@
+Index: src/main/java/kz/kaznitu/lessons/controllers/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/kz/kaznitu/lessons/controllers/.gitignore	(date 1519972478000)
++++ src/main/java/kz/kaznitu/lessons/controllers/.gitignore	(date 1519976369207)
+@@ -1,0 +1,3 @@
++
++
++
